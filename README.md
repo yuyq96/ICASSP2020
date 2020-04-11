@@ -6,6 +6,20 @@
   - `TI-SV` `VoxCeleb` `SITW`
   -  Concat the outputs of local statistics pooling in each TDNN layer.
 
+### TH3.Lecture 3: Speech Recognition: Representations and Embeddings
+
+- [ ] Herman Kamper, Yevgen Matusevych, Sharon Goldwater. *Multilingual Acoustic Word Embedding Models for Processing Zero-resource Languages.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054202)]
+
+- [ ] Andy T. Liu, Shu-wen Yang, Po-Han Chi, Po-chun Hsu, Hung-yi Lee. *Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054458)]
+
+- [ ] Öykü Deniz Köse, Murat Saraçlar. *Recurrent Neural Audiovisual Word Embeddings for Synchronized Speech and Real-Time Mri.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053322)]
+
+- [ ] Shaoshi Ling, Yuzong Liu, Julian Salazar, Katrin Kirchhoff. *Deep Contextualized Acoustic Representations for Semi-Supervised Speech Recognition.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053176)]
+
+- [ ] Chung-Yi Li, Pei-Chieh Yuan, Hung-Yi Lee. *What Does a Network Layer Hear? Analyzing Hidden Representations of End-to-End ASR Through Speech Synthesis.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054675)]
+
+- [ ] Jennifer Drexler, James Glass. *Learning a Subword Inventory Jointly with End-to-End Automatic Speech Recognition.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053736)]
+
 ### TH3.Lecture 6: Speaker Recognition/Identification/Verification
 
 - [ ] Sung-Hyun Yoon, Ha-Jin Yu. *Multiple Points Input For Convolutional Neural Networks in Replay Attack Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053303)]
