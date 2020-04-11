@@ -8,12 +8,19 @@
 
 ### FR1.Poster C: Speaker Recognition Systems, Data and Features
 
+- [x] Daniel Garcia-Romero, Alan McCree, David Snyder, Gregory Sell. *JHU-HLTCOE System for the VoxSRC Speaker Recognition Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053209)]
+  - `SI-SV` `VoxCeleb` `Fusion`
+  - FBank, MFCC
+  - E-TDNN, F-TDNN
+  - Softmax, AAM-Softmax, PLDA-Softmax, Meta-learning Softmax
+  - Cosine, G-PLDA
+
 - [x] Hao Lu, Jianfeng Zhou, Miao Zhao, Wendian Lei, Qingyang Hong, Lin Li. *XMU-TS Systems for NIST SRE19 CTS Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053080)]
   - `SI-SV` `NIST` `Fusion` `Domain mismatch` `AS-Norm`
-  - TDNN, TDNN-f, ResNet
-  - MFCC, FBank, PLP + pitch
+  - FBank, MFCC, PLP + pitch
+  - TDNN, E-TDNN, F-TDNN, ResNet
   - Employ length normalization, centering, whitening and LDA before domain adapted PLDA scoring for eliminating domain mismatch.
 
-- [ ] Yue Fan, Jiawen Kang, Lantian Li, Kaicheng Li, Haolin Chen, Sitong Cheng, Pengyuan Zhang, Ziya Zhou, Yunqi Cai, Dong Wang. *CN-Celeb: A Challenging Chinese Speaker Recognition Dataset.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054017)]
+- [x] Yue Fan, Jiawen Kang, Lantian Li, Kaicheng Li, Haolin Chen, Sitong Cheng, Pengyuan Zhang, Ziya Zhou, Yunqi Cai, Dong Wang. *CN-Celeb: A Challenging Chinese Speaker Recognition Dataset.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054017)]
   - `SI-SV` `CN-Celeb`
   - 1,000 Chinese speakers, 130,109 utterances, 273.73 hours.
