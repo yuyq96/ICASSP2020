@@ -1,10 +1,16 @@
 # ICASSP2020
 
+## Speech Processing
+
+### TU1.Poster A: Adversarial/Discriminative Training and Spoofing for Speaker Recognition
+
 ### WE1.Poster A: Deep Speaker Recognition Models
 
 - [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Statistics Pooling Time Delay Neural Network Based on X-Vector for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054350)]
   - `TI-SV` `VoxCeleb` `SITW`
   -  Concat the outputs of local statistics pooling in each TDNN layer.
+
+### TH1.Poster A: Speaker Diarization and Characterization
 
 ### TH3.Lecture 3: Speech Recognition: Representations and Embeddings
 
