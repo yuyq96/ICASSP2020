@@ -6,6 +6,20 @@
   - `TI-SV` `VoxCeleb` `SITW`
   -  Concat the outputs of local statistics pooling in each TDNN layer.
 
+### TH3.Lecture 6: Speaker Recognition/Identification/Verification
+
+- [ ] Sung-Hyun Yoon, Ha-Jin Yu. *Multiple Points Input For Convolutional Neural Networks in Replay Attack Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053303)]
+
+- [ ] Youzhi Tu, Man-Wai Mak, Jen-Tzung Chien. *Information Maximized Variational Domain Adversarial Learning for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053735)]
+
+- [ ] Yexin Yang, Shuai Wang, Xun Gong, Yanmin Qian, Kai Yu. *Text Adaptation for Speaker Verification with Speaker-Text Factorized Embeddings.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054333)]
+
+- [ ] Rongjin Li, Dongpeng Chen, Weibin Zhang. *Voiceai Systems to NIST Sre19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
+
+- [ ] Zhiming Wang, Kaisheng Yao, Xiaolong Li, Shuo Fang. *Multi-Resolution Multi-Head Attention in Deep Speaker Embedding.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053217)]
+
+- [ ] Danwei Cai, Weicheng Cai, Ming Li. *Within-Sample Variability-Invariant Loss for Robust Speaker Recognition Under Noisy Environments.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053407)]
+
 ### FR1.Poster C: Speaker Recognition Systems, Data and Features
 
 - [x] Daniel Garcia-Romero, Alan McCree, David Snyder, Gregory Sell. *JHU-HLTCOE System for the VoxSRC Speaker Recognition Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053209)]
