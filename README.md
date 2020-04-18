@@ -34,7 +34,7 @@
 
 - [ ] Yexin Yang, Shuai Wang, Xun Gong, Yanmin Qian, Kai Yu. *Text Adaptation for Speaker Verification with Speaker-Text Factorized Embeddings.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054333)]
 
-- [ ] Rongjin Li, Dongpeng Chen, Weibin Zhang. *Voiceai Systems to NIST Sre19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
+- [ ] Rongjin Li, Dongpeng Chen, Weibin Zhang. *VoiceAI Systems to NIST SRE19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
 
 - [ ] Zhiming Wang, Kaisheng Yao, Xiaolong Li, Shuo Fang. *Multi-Resolution Multi-Head Attention in Deep Speaker Embedding.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053217)]
 
