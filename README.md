@@ -44,7 +44,7 @@
 - [x] Zhiming Wang, Kaisheng Yao, Xiaolong Li, Shuo Fang. *Multi-Resolution Multi-Head Attention in Deep Speaker Embedding.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053217)]
   - `SI-SV` `VoxCeleb` `Attentive pooling`
   - Multi-resolution: scaling the input of softmax function (which smooths the curve of attentive weights).
-  - This paper points out that "Deep speaker recognition: Modular or monolithic?" (in INTERSPEECH 2019) might use the VoxCeleb1 test set in their training.
+  - This paper points out that "Deep speaker recognition: Modular or monolithic?" (in INTERSPEECH 2019) might used the VoxCeleb1 test set in training.
 
 - [ ] Danwei Cai, Weicheng Cai, Ming Li. *Within-Sample Variability-Invariant Loss for Robust Speaker Recognition Under Noisy Environments.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053407)]
 
