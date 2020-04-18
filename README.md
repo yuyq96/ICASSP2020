@@ -34,7 +34,12 @@
 
 - [ ] Yexin Yang, Shuai Wang, Xun Gong, Yanmin Qian, Kai Yu. *Text Adaptation for Speaker Verification with Speaker-Text Factorized Embeddings.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054333)]
 
-- [ ] Rongjin Li, Dongpeng Chen, Weibin Zhang. *VoiceAI Systems to NIST SRE19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
+- [x] Rongjin Li, Dongpeng Chen, Weibin Zhang. *VoiceAI Systems to NIST SRE19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
+  - `SI-SV` `SRE` `Fusion` `Domain mismatch`
+  - FBank, MFCC, PLP + pitch
+  - NN-based VAD
+  - E-TDNN, F-TDNN, LSTM
+  - AS-Norm, adapted G-PLDA
 
 - [ ] Zhiming Wang, Kaisheng Yao, Xiaolong Li, Shuo Fang. *Multi-Resolution Multi-Head Attention in Deep Speaker Embedding.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053217)]
 
@@ -50,10 +55,11 @@
   - Cosine, G-PLDA
 
 - [x] Hao Lu, Jianfeng Zhou, Miao Zhao, Wendian Lei, Qingyang Hong, Lin Li. *XMU-TS Systems for NIST SRE19 CTS Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053080)]
-  - `SI-SV` `NIST` `Fusion` `Domain mismatch` `AS-Norm`
+  - `SI-SV` `NIST` `Fusion` `Domain mismatch`
   - FBank, MFCC, PLP + pitch
   - TDNN, E-TDNN, F-TDNN, ResNet
   - Employ length normalization, centering, whitening and LDA before domain adapted PLDA scoring for eliminating domain mismatch.
+  - AS-Norm
 
 - [x] Yue Fan, Jiawen Kang, Lantian Li, Kaicheng Li, Haolin Chen, Sitong Cheng, Pengyuan Zhang, Ziya Zhou, Yunqi Cai, Dong Wang. *CN-Celeb: A Challenging Chinese Speaker Recognition Dataset.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054017)]
   - `SI-SV` `CN-Celeb`
