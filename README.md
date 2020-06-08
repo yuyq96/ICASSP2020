@@ -42,7 +42,7 @@
 
 - [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Statistics Pooling Time Delay Neural Network Based on X-Vector for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054350)]
   - `TI-SV` `VoxCeleb` `SITW`
-  -  Concat the outputs of local statistics pooling in each TDNN layer.
+  -  Concatenate the outputs of local statistics pooling in each TDNN layer.
 
 ### TH1.Poster A: Speaker Diarization and Characterization
 
