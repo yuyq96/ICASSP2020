@@ -6,6 +6,40 @@
 
 ### WE1.Poster A: Deep Speaker Recognition Models
 
+- [x] Sarthak Yadav, Atul Rai. *Frequency and Temporal Convolutional Attention for Text-independent Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054440/)]
+  - `TI-SV` `VoxCeleb` `CBAM`
+  - CABM in CV: channel attention and spatial attention.
+  - Frequency attention and temporal attention.
+
+- [x] Naohiro Tawara, Atsunori Ogawa, Tomoharu Iwata, Marc Delcroix, Tetsuji Ogawa. *Frame-level Phoneme-invariant Speaker Embedding for Text-independent Speaker Recognition on Extremely Short Utterances.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053871/)]
+  - `TI-SV` `LibriSpeech`
+  - Phoneme information may help to find discriminating phonemes, but phoneme-aware training perform badly for extremely short utterances.
+  - Adopt adversarial training (reverse gradient) to remove phonetic information in segment level embedding.
+
+- [x] Tom Ko, Yangbin Chen, Qing Li. *Prototypical Networks for Small Footprint Text-independent Speaker Verification.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054471/)]
+  - `TI-SV` `NIST SRE` `Switchboard` `Few-shot` `Prototypical`
+  - Randomly select N classes and K+1 samples for each class, split them into the support set (K) and the query set (1).
+  - The prototype of each class is defined as the mean vector of the K samples in the support set.
+
+- [ ] Chen Chen, Jiqing Han. *TDMF: Task-driven Multilevel Framework for End-to-end Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9052957/)]
+
+- [x] Bin Gu, Wu Guo, Lirong Dai, Jun Du. *An Improved Deep Neural Network for Modeling Speaker Characteristics at Different Temporal Scales.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054151)]
+  - `TI-SV` `NIST SRE` `Multiscale` `Attentive pooling (Baum-Welch)`
+  - Multiple 1D Conv with different dilation sizes (channel concatenation)
+  - Utilize Baum-Welch statistics (for creating extra weights) in attentive pooling
+
+- [ ] Zhongxin Bai, Xiao-Lei Zhang，Jingdong Chen. *Partial AUC Optimization based Deep Speaker Embeddings with Class-center Learning for Text-independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053674/)]
+
+- [ ] Victoria Mingote, Antonio Miguel, Dayana Ribas, Alfonso Ortega, Eduardo Lleida. *Knowledge Distillation and Random Erasing Data Augmentation for Text-dependent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053153)]
+
+- [ ] Arsha Nagrani Joon Son Chung, Samuel Albanie, Andrew Zisserman. *Disentangled Speech Embeddings Using Cross-model Self-supervision.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054057)]
+
+- [ ] Yong Zhao, Tianyan Zhou, Zhuo Chen, Jian Wu. *Improved Deep CNN Networks with Long Temporal Context for Text-independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053767)]
+
+- [ ] Weiwei Lin, Man-Mai Mak, Na Li, Dan Su, Dong Yu. *Multi-level Deep Neural Network Adaptation for Speaker Verification Using MMD and Consistency Regularization.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054134)]
+
+- [ ] Siddharth Sigtia, Erik Marchi, Sachin Kajarekar, Devang Naik, John Bridle. *Multi-task Learning for Speaker Verification and Voice Trigger Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054760)]
+
 - [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Statistics Pooling Time Delay Neural Network Based on X-Vector for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054350)]
   - `TI-SV` `VoxCeleb` `SITW`
   -  Concat the outputs of local statistics pooling in each TDNN layer.
@@ -35,7 +69,7 @@
 - [ ] Yexin Yang, Shuai Wang, Xun Gong, Yanmin Qian, Kai Yu. *Text Adaptation for Speaker Verification with Speaker-Text Factorized Embeddings.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054333)]
 
 - [x] Rongjin Li, Dongpeng Chen, Weibin Zhang. *VoiceAI Systems to NIST SRE19 Evaluation: Robust Speaker Recognition on Conversational Telephone Speech.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054624)]
-  - `SI-SV` `SRE` `Fusion` `Domain mismatch`
+  - `SI-SV` `NIST SRE` `Fusion` `Domain mismatch`
   - FBank, MFCC, PLP + pitch
   - NN-based VAD
   - E-TDNN, F-TDNN, LSTM
@@ -58,7 +92,7 @@
   - Cosine, G-PLDA
 
 - [x] Hao Lu, Jianfeng Zhou, Miao Zhao, Wendian Lei, Qingyang Hong, Lin Li. *XMU-TS Systems for NIST SRE19 CTS Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053080)]
-  - `SI-SV` `NIST` `Fusion` `Domain mismatch`
+  - `SI-SV` `NIST SRE` `Fusion` `Domain mismatch`
   - FBank, MFCC, PLP + pitch
   - TDNN, E-TDNN, F-TDNN, ResNet
   - Employ length normalization, centering, whitening and LDA before domain adapted PLDA scoring for eliminating domain mismatch.
