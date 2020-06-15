@@ -2,9 +2,9 @@
 
 ## Speech Processing
 
-### TU1.Poster A: Adversarial/Discriminative Training and Spoofing for Speaker Recognition
+### SPE-P1: Adversarial/Discriminative Training and Spoofing for Speaker Recognition
 
-### WE1.Poster A: Deep Speaker Recognition Models
+### SPE-P5: Deep Speaker Recognition Models
 
 - [x] Sarthak Yadav, Atul Rai. *Frequency and Temporal Convolutional Attention for Text-independent Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054440/)]
   - `TI-SV` `VoxCeleb` `CBAM`
@@ -44,9 +44,9 @@
   - `TI-SV` `VoxCeleb` `SITW`
   -  Concatenate the outputs of local statistics pooling in each TDNN layer.
 
-### TH1.Poster A: Speaker Diarization and Characterization
+### SPE-P10: Speaker Diarization and Characterization
 
-### TH3.Lecture 3: Speech Recognition: Representations and Embeddings
+### SPE-L13: Speech Recognition: Representations and Embeddings
 
 - [ ] Herman Kamper, Yevgen Matusevych, Sharon Goldwater. *Multilingual Acoustic Word Embedding Models for Processing Zero-resource Languages.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054202)]
 
@@ -60,7 +60,7 @@
 
 - [ ] Jennifer Drexler, James Glass. *Learning a Subword Inventory Jointly with End-to-End Automatic Speech Recognition.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053736)]
 
-### TH3.Lecture 6: Speaker Recognition/Identification/Verification
+### SPE-L14: Speaker Recognition/Identification/Verification
 
 - [ ] Sung-Hyun Yoon, Ha-Jin Yu. *Multiple Points Input For Convolutional Neural Networks in Replay Attack Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053303)]
 
@@ -82,7 +82,7 @@
 
 - [ ] Danwei Cai, Weicheng Cai, Ming Li. *Within-Sample Variability-Invariant Loss for Robust Speaker Recognition Under Noisy Environments.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053407)]
 
-### FR1.Poster C: Speaker Recognition Systems, Data and Features
+### SPE-P18: Speaker Recognition Systems, Data and Features
 
 - [x] Daniel Garcia-Romero, Alan McCree, David Snyder, Gregory Sell. *JHU-HLTCOE System for the VoxSRC Speaker Recognition Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053209)]
   - `SI-SV` `VoxCeleb` `Fusion`
@@ -97,6 +97,9 @@
   - TDNN, E-TDNN, F-TDNN, ResNet
   - Employ length normalization, centering, whitening and LDA before domain adapted PLDA scoring for eliminating domain mismatch.
   - AS-Norm
+
+- [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Combining Deep Embeddings of Acoustic and Articulatory Features for Speaker Identification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053640/)]
+  - Utilize articulatory features instead of directly using phonemes.
 
 - [x] Yue Fan, Jiawen Kang, Lantian Li, Kaicheng Li, Haolin Chen, Sitong Cheng, Pengyuan Zhang, Ziya Zhou, Yunqi Cai, Dong Wang. *CN-Celeb: A Challenging Chinese Speaker Recognition Dataset.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054017)]
   - `SI-SV` `CN-Celeb`
