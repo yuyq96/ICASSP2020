@@ -4,6 +4,30 @@
 
 ### SPE-P1: Adversarial/Discriminative Training and Spoofing for Speaker Recognition
 
+- [ ] Haibin Wu, Songxiang Liu, Helen Meng, Hung-yi Lee. *Defense Against Adversarial Attacks on Spoofing Countermeasures of ASV.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053643)]
+
+- [ ] Kai Liu, Huan Zhou. *Text-Independent Speaker Verification with Adversarial Learning on Short Utterances.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054036)]
+
+- [ ] Zhengyang Chen, Shuai Wang, Yanmin Qian, Kai Yu. *Channel Invariant Speaker Embedding Learning with Joint Multi-Task and Adversarial Training.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053905)]
+
+- [ ] Xu Li, Jinghua Zhong, Xixin Wu, Jianwei Yu, Xunying Liu, Helen Meng. *Adversarial Attacks on GMM I-vector Based Speaker Verification Systems.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053076)]
+
+- [ ] Yingke Zhu, Brian Mak. *Orthogonal Training for Text-Independent Speaker Verification.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053198)]
+
+- [ ] Rohan Kumar Das, Jichen Yang, Haizhou Li. *Assessing the Scope of Generalized Countermeasures for Anti-Spoofing.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053086)]
+
+- [ ] Naohiro Tawara, Hosana Kamiyama, Satoshi Kobashikawa, Atsunori Ogawa. *Improving Speaker-Attribute Estimation by Voting Based on Speaker Cluster Information.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053583)]
+
+- [ ] Joao Monteiro, Jahangir Alam, Tiago Falk. *An Ensemble Based Approach for Generalized Detection of Spoofing Attacks to Automatic Speaker Recognizers.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054558)]
+
+- [ ] Luciana Ferrer, Mitchell McLaren. *A Discriminative Condition-Aware Backend for Speaker Verification.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053485)]
+
+- [ ] Gajan Suthokumar, Vidhyasaharan Sethu, Kaavya Sriskandaraja, Eliathamby Ambikairajah. *Adversarial Multi-Task Learning for Speaker Normalization in Replay Detection.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054322)]
+
+- [ ] Raghuveer Peri, Monisankha Pal, Arindam Jati, Krishna Somandepalli, Shrikanth Narayanan. *Robust Speaker Recognition Using Unsupervised Adversarial Invariance.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054601/)]
+
+- [ ] Qiongqiong Wang, Koji Okabe, Kong Aik Lee, Takafumi Koshinaka. *A Generalized Framework for Domain Adaptation of PLDA in Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054113)]
+
 ### SPE-P5: Deep Speaker Recognition Models
 
 - [x] Sarthak Yadav, Atul Rai. *Frequency and Temporal Convolutional Attention for Text-independent Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054440/)]
