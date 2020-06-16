@@ -4,7 +4,7 @@
 
 ### SPE-P1: Adversarial/Discriminative Training and Spoofing for Speaker Recognition
 
-- [ ] Haibin Wu, Songxiang Liu, Helen Meng, Hung-yi Lee. *Defense Against Adversarial Attacks on Spoofing Countermeasures of ASV.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053643)]
+- [ ] Haibin Wu, Songxiang Liu, Helen Meng, Hung-Yi Lee. *Defense Against Adversarial Attacks on Spoofing Countermeasures of ASV.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053643)]
 
 - [ ] Kai Liu, Huan Zhou. *Text-Independent Speaker Verification with Adversarial Learning on Short Utterances.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054036)]
 
@@ -30,39 +30,39 @@
 
 ### SPE-P5: Deep Speaker Recognition Models
 
-- [x] Sarthak Yadav, Atul Rai. *Frequency and Temporal Convolutional Attention for Text-independent Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054440/)]
+- [x] Sarthak Yadav, Atul Rai. *Frequency and Temporal Convolutional Attention for Text-Independent Speaker Recognition.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054440/)]
   - `TI-SV` `VoxCeleb` `CBAM`
   - CABM in CV: channel attention and spatial attention.
   - Frequency attention and temporal attention.
 
-- [x] Naohiro Tawara, Atsunori Ogawa, Tomoharu Iwata, Marc Delcroix, Tetsuji Ogawa. *Frame-level Phoneme-invariant Speaker Embedding for Text-independent Speaker Recognition on Extremely Short Utterances.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053871/)]
+- [x] Naohiro Tawara, Atsunori Ogawa, Tomoharu Iwata, Marc Delcroix, Tetsuji Ogawa. *Frame-Level Phoneme-Invariant Speaker Embedding for Text-independent Speaker Recognition on Extremely Short Utterances.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9053871/)]
   - `TI-SV` `LibriSpeech`
   - Phoneme information may help to find discriminating phonemes, but phoneme-aware training perform badly for extremely short utterances.
   - Adopt adversarial training (reverse gradient) to remove phonetic information in segment level embedding.
 
-- [x] Tom Ko, Yangbin Chen, Qing Li. *Prototypical Networks for Small Footprint Text-independent Speaker Verification.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054471/)]
+- [x] Tom Ko, Yangbin Chen, Qing Li. *Prototypical Networks for Small Footprint Text-Independent Speaker Verification.* [[ICASP 2020](https://ieeexplore.ieee.org/document/9054471/)]
   - `TI-SV` `NIST SRE` `Switchboard` `Few-shot` `Prototypical`
   - Randomly select N classes and K+1 samples for each class, split them into the support set (K) and the query set (1).
   - The prototype of each class is defined as the mean vector of the K samples in the support set.
 
-- [ ] Chen Chen, Jiqing Han. *TDMF: Task-driven Multilevel Framework for End-to-end Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9052957/)]
+- [ ] Chen Chen, Jiqing Han. *TDMF: Task-Driven Multilevel Framework for End-to-End Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9052957/)]
 
 - [x] Bin Gu, Wu Guo, Lirong Dai, Jun Du. *An Improved Deep Neural Network for Modeling Speaker Characteristics at Different Temporal Scales.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054151)]
   - `TI-SV` `NIST SRE` `Multiscale` `Attentive pooling (Baum-Welch)`
   - Multiple 1D Conv with different dilation sizes (channel concatenation)
   - Utilize Baum-Welch statistics (for creating extra weights) in attentive pooling
 
-- [ ] Zhongxin Bai, Xiao-Lei Zhang，Jingdong Chen. *Partial AUC Optimization based Deep Speaker Embeddings with Class-center Learning for Text-independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053674/)]
+- [ ] Zhongxin Bai, Xiao-Lei Zhang，Jingdong Chen. *Partial AUC Optimization based Deep Speaker Embeddings with Class-Center Learning for Text-independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053674/)]
 
-- [ ] Victoria Mingote, Antonio Miguel, Dayana Ribas, Alfonso Ortega, Eduardo Lleida. *Knowledge Distillation and Random Erasing Data Augmentation for Text-dependent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053153)]
+- [ ] Victoria Mingote, Antonio Miguel, Dayana Ribas, Alfonso Ortega, Eduardo Lleida. *Knowledge Distillation and Random Erasing Data Augmentation for Text-Dependent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053153)]
 
-- [ ] Arsha Nagrani Joon Son Chung, Samuel Albanie, Andrew Zisserman. *Disentangled Speech Embeddings Using Cross-model Self-supervision.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054057)]
+- [ ] Arsha Nagrani Joon Son Chung, Samuel Albanie, Andrew Zisserman. *Disentangled Speech Embeddings Using Cross-Model Self-Supervision.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054057)]
 
-- [ ] Yong Zhao, Tianyan Zhou, Zhuo Chen, Jian Wu. *Improved Deep CNN Networks with Long Temporal Context for Text-independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053767)]
+- [ ] Yong Zhao, Tianyan Zhou, Zhuo Chen, Jian Wu. *Improved Deep CNN Networks with Long Temporal Context for Text-Independent Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053767)]
 
-- [ ] Weiwei Lin, Man-Mai Mak, Na Li, Dan Su, Dong Yu. *Multi-level Deep Neural Network Adaptation for Speaker Verification Using MMD and Consistency Regularization.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054134)]
+- [ ] Weiwei Lin, Man-Mai Mak, Na Li, Dan Su, Dong Yu. *Multi-Level Deep Neural Network Adaptation for Speaker Verification Using MMD and Consistency Regularization.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054134)]
 
-- [ ] Siddharth Sigtia, Erik Marchi, Sachin Kajarekar, Devang Naik, John Bridle. *Multi-task Learning for Speaker Verification and Voice Trigger Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054760)]
+- [ ] Siddharth Sigtia, Erik Marchi, Sachin Kajarekar, Devang Naik, John Bridle. *Multi-Task Learning for Speaker Verification and Voice Trigger Detection.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054760)]
 
 - [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Statistics Pooling Time Delay Neural Network Based on X-Vector for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054350)]
   - `TI-SV` `VoxCeleb` `SITW`
@@ -72,9 +72,9 @@
 
 ### SPE-L13: Speech Recognition: Representations and Embeddings
 
-- [ ] Herman Kamper, Yevgen Matusevych, Sharon Goldwater. *Multilingual Acoustic Word Embedding Models for Processing Zero-resource Languages.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054202)]
+- [ ] Herman Kamper, Yevgen Matusevych, Sharon Goldwater. *Multilingual Acoustic Word Embedding Models for Processing Zero-Resource Languages.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054202)]
 
-- [ ] Andy T. Liu, Shu-wen Yang, Po-Han Chi, Po-chun Hsu, Hung-yi Lee. *Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054458)]
+- [ ] Andy T. Liu, Shu-Wen Yang, Po-Han Chi, Po-Chun Hsu, Hung-Yi Lee. *Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054458)]
 
 - [ ] Öykü Deniz Köse, Murat Saraçlar. *Recurrent Neural Audiovisual Word Embeddings for Synchronized Speech and Real-Time Mri.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053322)]
 
