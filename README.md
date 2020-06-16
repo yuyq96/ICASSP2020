@@ -108,8 +108,6 @@
 
 ### SPE-P18: Speaker Recognition Systems, Data and Features
 
-- [ ] . *.* [[ICASSP 2020]()]
-
 - [ ] Syed Shahnawazuddin, Waquar Ahmad, Nagaraj Adiga, Avinash Kumar. *In-Domain and Out-of-Domain Data Augmentation to Improve Children’s Speaker Verification System in Limited Data Scenario.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053891)]
 
 - [x] Daniel Garcia-Romero, Alan McCree, David Snyder, Gregory Sell. *JHU-HLTCOE System for the VoxSRC Speaker Recognition Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053209)]
