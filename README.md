@@ -108,12 +108,18 @@
 
 ### SPE-P18: Speaker Recognition Systems, Data and Features
 
+- [ ] . *.* [[ICASSP 2020]()]
+
+- [ ] Syed Shahnawazuddin, Waquar Ahmad, Nagaraj Adiga, Avinash Kumar. *In-Domain and Out-of-Domain Data Augmentation to Improve Children’s Speaker Verification System in Limited Data Scenario.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053891)]
+
 - [x] Daniel Garcia-Romero, Alan McCree, David Snyder, Gregory Sell. *JHU-HLTCOE System for the VoxSRC Speaker Recognition Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053209)]
   - `SI-SV` `VoxCeleb` `Fusion`
   - FBank, MFCC
   - E-TDNN, F-TDNN
   - Softmax, AAM-Softmax, PLDA-Softmax, Meta-learning Softmax
   - Cosine, G-PLDA
+
+- [ ] Guillermo Cámbara, Jordi Luque, Mireia Farrús. *Detection of Speech Events and Speaker Characteristics through Photo-Plethysmographic Signal Neural Processing.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9052972)]
 
 - [x] Hao Lu, Jianfeng Zhou, Miao Zhao, Wendian Lei, Qingyang Hong, Lin Li. *XMU-TS Systems for NIST SRE19 CTS Challenge.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053080)]
   - `SI-SV` `NIST SRE` `Fusion` `Domain mismatch`
@@ -122,9 +128,19 @@
   - Employ length normalization, centering, whitening and LDA before domain adapted PLDA scoring for eliminating domain mismatch.
   - AS-Norm
 
+- [ ] Umair Khan, Miquel India, Javier Hernando. *I-Vector Transformation Using K-Nearest Neighbors for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053504)]
+
+- [ ] Saurabh Kataria, Phani Sankar Nidadavolu, Jesús Villalba, Nanxin Chen, Paola García-Perera, Najim Dehak. *Feature Enhancement with Deep Feature Losses for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053110)]
+
 - [x] Qian-Bei Hong, Chung-Hsien Wu, Hsin-Min Wang, Chien-Lin Huang. *Combining Deep Embeddings of Acoustic and Articulatory Features for Speaker Identification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053640/)]
   - Utilize articulatory features instead of directly using phonemes.
+
+- [ ] Bengt Borgstrom, Pedro Torres-Carrasquillo. *Bayesian Estimation of PLDA with Noisy Training Labels, with Applications to Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053585)]
+
+- [ ] Phani Sankar Nidadavolu, Saurabh Kataria, Jesús Villalba, Paola García-Perera, Najim Dehak. *Unsupervised Feature Enhancement for Speaker Verification.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9053823)]
 
 - [x] Yue Fan, Jiawen Kang, Lantian Li, Kaicheng Li, Haolin Chen, Sitong Cheng, Pengyuan Zhang, Ziya Zhou, Yunqi Cai, Dong Wang. *CN-Celeb: A Challenging Chinese Speaker Recognition Dataset.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054017)]
   - `SI-SV` `CN-Celeb`
   - 1,000 Chinese speakers, 130,109 utterances, 273.73 hours.
+
+- [ ] Xiaoyi Qin, Hui Bu, Ming Li. *HI-MIA: A Far-Field Text-Dependent Speaker Verification Database and the Baselines.* [[ICASSP 2020](https://ieeexplore.ieee.org/document/9054423)]
